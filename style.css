@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  color: #004f55;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5acfd7;
+}
+
+.login-div {
+  width: 330px;
+  height: 600px;
+  padding: 50px 35px 35px;
+  border-radius: 45px;
+  background: linear-gradient(145deg, #4caeb5, #5acfd7);
+  box-shadow: 5px 5px 12px #388187, -10px -5px 12px #70ffff;
+}
+.logo {
+  background: url("McDonald\'s\ 2.svg");
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding-top: 24px;
+}
+.subtitle {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 7px;
+  letter-spacing: 3px;
+}
+.login-div .campos {
+  margin-top: 55px;
+}
+input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 14px;
+  margin: 15px 10px;
+}
+.login-div .campos .user,
+.password {
+  border-radius: 59px;
+  margin-bottom: 30px;
+  border-radius: 60px;
+  background: #54c1c9;
+  box-shadow: inset 5px 5px 12px #388187, inset -5px -5px 12px #70ffff;
+}
+svg {
+  height: 20px;
+  margin: 2px 15px -5px;
+  opacity: 0.4;
+}
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #70ffff;
+  border-radius: 60px;
+  background: linear-gradient(145deg, #388187, #004f55);
+  /* background: #004f55; */
+  box-shadow: 5px 5px 12px #388187, -5px -5px 12px #70ffff;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.link {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+.link a {
+  text-decoration: none;
+}
